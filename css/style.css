@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------public-------------*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei",微软雅黑,SimHei,"黑体",SimSun,"宋体",Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #000;
+    background: #fff;
+}
+img {
+    display: block;
+    border: 0 none;
+    -ms-interpolation-mode: bicubic;
+
+    image-rendering: optimizeQuality;
+}
+button {
+    border: 0 none;
+    cursor: pointer;
+}
+input {
+    border: 0 none;
+    background: transparent;
+}
+textarea {
+    border: 0 none;
+    resize: none;
+}
+ul, li {
+    list-style-type: none;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+i, em, cite {
+    font-style: normal;
+}
+p {
+    word-wrap: break-word;
+}
+.fixed:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    content: ".";
+}
+.fixed {
+    zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+}
+.clearfix {
+    clear: both;
+}
+body, input, select, button, textarea {
+    outline: none;
+}
+a, input, textarea, p, span, h2, em, li, div {
+    text-decoration: none;
+    outline: none;
+
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+a:focus, textarea:focus, input:focus {
+    outline: none;
+
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+input, textarea {
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+
+.all_bg{
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+#allcanvas{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+#canvas1,#canvas2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
